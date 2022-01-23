@@ -1,0 +1,7 @@
+/* Clases rreusables globales */
+
+/* Margim-bottom predefinidos */
+.mb-sm {margin-bottom: 0.7rem;} /* pequeño */
+.mb-md {margin-bottom: 2rem;} /* mediano */
+.mb-bg {margin-bottom: 6rem;} /* grande */
+.mb-hg {margin-bottom: 11rem;} /* muy grande */

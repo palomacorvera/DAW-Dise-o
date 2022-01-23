@@ -1,0 +1,77 @@
+/* Botones */
+
+.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+
+    border: none;
+    cursor: pointer;
+
+    box-shadow: var(--box-shadow);
+
+    transition: all 0.1s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: scale(1.05);
+}
+
+/* botones rojos y negros */
+.btn--primary {
+    background-color: var(--color-primary);
+    color: var(--color-tertiary);
+}
+
+.btn--primary:hover {
+    background-color: var(--color-tertiary);
+    color: var(--color-primary);
+}
+
+/* botones negros y blancos */
+.btn--secondary {
+    background-color: var(--color-tertiary);
+    color: var(--color-secondary);
+}
+
+.btn--secondary:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-tertiary);
+}
+
+/* botones negros y blancos con borde */
+
+.btn--secondary--border {
+    border: 0.1rem solid var(--color-secondary);
+}
+
+.btn--secondary--border:hover {
+    color: var(--color-primary);
+    border: 0.1rem solid var(--color-primary);
+    background-color: var(--color-tertiary);
+}
+
+/* botones con con el ancho grande */
+.btn--big {
+    width: 17.4rem;
+
+    padding: 1.1rem;
+}
+
+/* botones con con el ancho mediano */
+.btn--medium {
+    width: 13.4rem;
+
+    padding: 1.7rem;
+}
+
+/* botones con el ancho pequeño */
+.btn--small {
+    width: 12.3rem;
+
+    padding: 0.7rem 1rem;
+}

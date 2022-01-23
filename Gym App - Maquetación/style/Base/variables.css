@@ -1,0 +1,16 @@
+/* Variables globales */
+
+:root {
+    /* Colores */
+    --color-primary: #E71D36;
+    --color-secondary: #F5F5F5;
+    --color-tertiary: #333;
+
+    /* Box shadow */
+    --box-shadow: 1rem 1rem 3rem 0.5rem rgba(0, 0, 0, 0.25); 
+}
+
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');

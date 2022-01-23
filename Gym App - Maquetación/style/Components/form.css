@@ -1,0 +1,95 @@
+/* Formularios */
+
+/* Contenedor del formulario */
+.form {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-tertiary);
+    box-shadow: var(--box-shadow);
+    width: 85.7rem;
+    padding: 5rem 9.7rem;
+}
+
+/* Contenido del formulario */
+.form__content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenido del formulario cuando es pequeño */
+.form__content--small {
+    display: flex;
+}
+
+.form__content--small .form__content {
+    margin-right: 2rem;
+}
+
+/* Contenedor de la imágen del formulario */
+.form__img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-right: 2rem;
+
+    height: 27rem;
+    width: 27rem;
+
+    box-shadow: var(--box-shadow);
+    background-color: var(--color-tertiary);
+}
+
+/* Imágen del formulario */
+.form__img img {
+    height: 90%;
+}
+
+/* Información del formulario */
+.form__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8.2rem 2rem;
+    margin-left: 2rem;
+
+    height: 30.2rem;
+    width: 27rem;
+
+    box-shadow: var(--box-shadow);
+    background-color: var(--color-tertiary);
+}
+
+/* Label del formulario */
+.form__label {
+    margin-bottom: 2rem;
+}
+
+/* Input del formulario */
+.form__input {
+    border: none;
+    background-color: var(--color-secondary);
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--color-tertiary);
+    width: 27.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Input del formulario pequeño */
+.form__input--small {
+    width: 17.4rem;
+}
+
+/* Input del formulario grande */
+.form__input--big {
+    height: 12.1rem;
+}
+
+/* Botón del formulario */
+.form__btn {
+    align-self: flex-end;
+    margin-top: 4rem;
+}

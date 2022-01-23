@@ -1,0 +1,71 @@
+/* Apartado de trainers */
+.trainers {
+    background-color: var(--color-secondary);
+}
+
+/* Título de trainers */
+.trainers__heading {
+    background-color: var(--color-tertiary);
+    box-shadow: var(--box-shadow);
+    padding: 2.3rem;
+}
+
+/* Contenedor del contenido de trainers */
+.trainers__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    padding: 7rem;
+}
+
+/* Contenedor de la imágen de trainers */
+.trainer__img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin: 2rem 0;
+
+    width: 28rem;
+    height: 28rem;
+
+    background-color: var(--color-tertiary);
+    box-shadow: var(--box-shadow);
+
+    position: relative;
+}
+
+/* Imágen de trainers */
+.trainer__img img {
+    height: 90%;
+}
+
+/* Contenedor de la información de cada entrenador */
+.trainer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 28rem;
+    width: 28rem;
+
+    padding: 2rem;
+
+    background-color: rgba(51, 51, 51, 0.8);
+
+    opacity: 0;
+    display: none;
+
+    transition: opacity 0.2s;
+}
+
+/* Mostrar la información de cada entrenador al hacer hover sobre su foto */
+.trainer__img:hover .trainer__info {
+    display: flex;
+    opacity: 1;
+}

@@ -1,0 +1,93 @@
+/* Tipografía general de la página */
+
+/* Títulos */
+
+/* Título grande*/
+.heading-primary { 
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: var(--color-secondary);
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+/* Apartados del título grande del color de contraste */
+.heading-primary__contrast-word {
+    color: var(--color-primary);
+    text-transform: capitalize;
+}
+
+/* Apartados del título grande con el borde oscuro */
+.heading-primary__bordered-word--dark{
+    color: var(--color-tertiary);
+    text-shadow: -1px -1px 0px var(--color-secondary), 1px 1px 0px var(--color-secondary), -1px 1px 1px var(--color-secondary), 1px -1px 0px var(--color-secondary);
+    text-transform: uppercase;
+}
+
+/* Apartados del título grande con el borde claro */
+.heading-primary__bordered-word--light {
+    color: var(--color-secondary);
+    text-shadow: -1px -1px 0px var(--color-tertiary), 1px 1px 0px var(--color-tertiary), -1px 1px 1px var(--color-tertiary), 1px -1px 0px var(--color-tertiary);
+    text-transform: uppercase;
+}
+
+/* Título pequeño */
+.heading-secondary {
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.heading-secondary__contrast-word {
+    font-size: 3.2rem;
+    color: var(--color-primary);
+}
+
+/* Texto */
+
+/* Texto muy grande */
+.text-huge {
+    font-size: 3.2rem;
+    font-weight: 900;
+
+    text-transform: uppercase;
+}
+
+/* Texto muy grande de contraste */
+.text-huge__contrast-word {
+    font-size: 5.6rem;
+    color: var(--color-primary);
+}
+
+/* Texto grande */
+.text-big {
+    font-size: 8rem;
+    font-weight: 900;
+
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* Apartados del texto grande con el borde de color */
+.text-big__bordered-word {
+    font-size: 6rem;
+    color: var(--color-tertiary);
+    text-shadow: -1px -1px 0px var(--color-secondary), 1px 1px 0px var(--color-secondary), -1px 1px 1px var(--color-secondary), 1px -1px 0px var(--color-secondary);
+}
+
+/* Texto mediano */
+.text-medium {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/* Texto pequeño */
+.text-small {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+/* Texto pequeño oscuro */
+.text-small--dark {
+    color: var(--color-tertiary);
+}

@@ -1,0 +1,28 @@
+/* En la carpeta pages meto las distintas secciones de la web. */
+
+@import 'pages/home.css'; /* Home */
+@import 'pages/trainers.css'; /* Trainers */
+@import 'pages/programs.css'; /* Programs */
+@import 'pages/pricing.css'; /* Pricing */
+
+/* En la carpeta components meto las partes reusables de la web. */
+
+@import 'components/buttons.css'; /* Botones */
+@import 'components/popup.css'; /* Pop up */
+@import 'components/form.css'; /* Formularios */
+@import 'components/card-info.css'; /* Tarjetas de información */
+
+/* En la carpeta base meto las bases, las variables, 
+las utilidades, las tipografías y las animaciones globales */
+
+@import 'base/variables.css'; /* Variables globales */
+@import 'base/utilities.css'; /* Clases reusables (margenes, etc) */
+@import 'base/base.css'; /* Inicializaciones globales */
+@import 'base/typography.css'; /* Clases relacionadas con la tipografía (títulos, textos) */
+
+/* En la carpeta layout meto las partes generales de la web, 
+aquellas que aparecerán el todas las páginas, y las partes específicas 
+al layout de la web. */
+
+@import 'layout/header.css'; /* Encabezado */
+@import 'layout/footer.css'; /* Encabezado */

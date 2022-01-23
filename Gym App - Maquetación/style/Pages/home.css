@@ -1,0 +1,28 @@
+/* Página principal */
+.home {
+    background-image: url('../../img/home-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+
+/* Contenido de la página principal */
+.home__content {
+    padding-top: 11rem;
+    padding-bottom: 16rem; 
+}
+
+/* Contenedor de la imágen de la página principal */
+.home__img {
+    display: flex;
+    width: 52%;
+}
+
+/* Imágen de la página principal */
+.home__img img {
+    align-self: flex-end;
+    width: 100%;
+}

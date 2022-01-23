@@ -1,0 +1,73 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    padding: 2rem 6.7rem 1.4rem;
+
+    background-color: var(--color-tertiary);
+    box-shadow: var(--box-shadow);
+
+    z-index: 3;
+}
+
+/* Logo del header */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Icono del logo */
+.logo__icon{
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+/* Texto del logo */
+.logo__text {
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    white-space: nowrap;
+}
+
+/* Navegador */
+.nav {
+    margin-right: 16%;
+    margin-left: 3rem;
+
+    width: 52.5%; 
+}
+
+/* Lista del navegador */
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+/* Apartados de la lista del navegador */
+.nav__item {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--color-secondary);
+
+    margin: 0 1rem;
+
+    padding-bottom: 0.2rem;
+
+    border-bottom: 0.3rem solid transparent;
+
+    transition: all 0.2s;
+}
+
+/* Hover de los apartados de la lista del navegador */
+.nav__item:hover {
+    border-bottom: 0.3rem solid var(--color-primary);
+}

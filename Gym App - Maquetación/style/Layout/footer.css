@@ -1,0 +1,40 @@
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 3rem 7rem;
+
+    background-color: var(--color-tertiary);
+}
+
+/* Contenedor del contenido del footer */
+.footer__info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* Contenedor de la información del footer */
+.footer__info {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+
+    margin: 0.8rem;
+}
+
+/* Icono pequeño del footer */
+.footer__icon--small {
+    height: 1.7rem;
+    
+    margin-right: 1.3rem;
+}
+
+/* Icono grande del footer */
+.footer__icon--big {
+    width: 4rem;
+
+    margin: 0 1.3rem;
+}

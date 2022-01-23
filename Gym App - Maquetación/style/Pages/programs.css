@@ -1,0 +1,81 @@
+/* Apartado programs */
+.programs {
+    display: grid;
+    grid-template-columns: 44rem auto;
+
+    background-color: var(--color-tertiary);
+
+    padding-right: 7rem;
+}
+
+/* Contenedor imágen de programs */
+.programs__img {
+    height: 56rem;
+}
+
+/* Imágen de programs */
+.programs__img img {
+    height: 100%;
+}
+
+/* Contenido de programs */
+.programs__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Contenedor contenido de programs */
+.programs__info {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+/* Cuadrados de información de programs */
+.program__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 2rem;
+
+    height: 31rem;
+    width: 17.5rem;
+
+    box-shadow: var(--box-shadow);
+}
+
+/* HOver de los cuadrados de información de programs */
+.program__info:hover {
+    background-color: var(--color-primary);
+    color: var(--color-tertiary);
+}
+
+/* Iconos de programs */
+.program__icon {
+    height: 5rem;
+    width: 5rem;
+}
+
+/* Botón de programs */
+.program__button {
+    align-self: flex-end;
+
+    height: 3rem;
+    width: 3rem;
+
+    cursor: pointer;
+}
+
+/* Hover del botón de programs */
+.program__button:hover {
+    transform: scale(1.1);
+}
+
+/* Active del botón de programs */
+.program__button:active {
+    transform: scale(1.05);
+}
